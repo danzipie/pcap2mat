@@ -22,9 +22,6 @@ setup(
     description='Scapy packet to dict',
     long_description=long_description,
 
-    # The project's main homepage.
-    url='https://github.com/littlezz/scapy2dict',
-
     # Author details
     author='littlezz',
     author_email='zz.at.field@gmail.com',
@@ -72,7 +69,7 @@ setup(
     # your project is installed. For an analysis of "install_requires" vs pip's
     # requirements files see:
     # https://packaging.python.org/en/latest/requirements.html
-    install_requires=['scapy-python3'],
+    install_requires=['scapy', 'scipy', 'numpy'],
 
     # List additional groups of dependencies here (e.g. development
     # dependencies). You can install these using the following syntax,

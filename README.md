@@ -1,23 +1,19 @@
-# scapy2dict
-Scapy packet to dict
+# pcap2mat
+Convert pcap file to mat.
+Mat files are used in MATLAB.
 
+The project is forked from
+https://github.com/littlezz/scapy2dict
 
 install
 -------
-`pip3 install scapy2dict`  
+`python setup.py install`
 
 
 Usage
 -----
 
-```python
-from scapy.all import sniff
-from scapy2dict import to_dict
-pkt = sniff(count=1)[0]
-
-# To ChainMap dict
-data = to_dict(pkt)
-
-# to exactly dict
-data = to_dict(pkt, strict=True)
+```python pcap2mat.py file_name
 ```
+
+file_name is your pcap file to convert.
