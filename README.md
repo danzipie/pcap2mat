@@ -13,7 +13,6 @@ install
 Usage
 -----
 
-```python pcap2mat.py file_name
-```
+`python pcap2mat.py file_name`
 
 file_name is your pcap file to convert.
